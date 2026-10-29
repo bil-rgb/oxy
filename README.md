@@ -22,13 +22,13 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ## Installation
 Install directly from GitHub (not published on npm registry):
 ```bash
-npm install github:bil-rgb/oxy
+npm install @bil-rgb/baileys
 ```
 
 Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@bil-rgb/baileys": "github:bil-rgb/oxy"
+  "@bil-rgb/baileys": "^1.0.0"
 }
 ```
 
@@ -37,7 +37,7 @@ Already have a bot built on the original `@whiskeysockets/baileys` and don't wan
 name points to this fork:
 ```json
 "dependencies": {
-  "@whiskeysockets/baileys": "github:bil-rgb/oxy"
+  "@whiskeysockets/baileys": "npm:@bil-rgb/baileys@^1.0.0"
 }
 ```
 With this alias, keep using `require('@whiskeysockets/baileys')` in your code as-is — npm will
@@ -45,7 +45,7 @@ resolve it to this fork under the hood.
 
 You can also pin to a specific branch or commit:
 ```bash
-npm install github:bil-rgb/oxy#main
+npm install @bil-rgb/baileys@latest
 ```
 
 ## Import
