@@ -1,10 +1,10 @@
 {
-  "name": "@poucode/baileys",
+  "name": "@bil-rgb/baileys",
   "type": "module",
   "version": "1.0.0",
-  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 PouCode fork of Baileys",
+  "description": "A WebSockets library for interacting with WhatsApp Web \u2014 bil-rgb fork of Baileys",
   "keywords": [
-    "poucode",
+    "bil-rgb",
     "baileys",
     "whatsapp",
     "whatsapp-api",
@@ -12,13 +12,13 @@
     "wa-bot",
     "whatsapp bot"
   ],
-  "homepage": "https://github.com/pou-code/Baileys",
+  "homepage": "https://github.com/bil-rgb/oxy",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pou-code/Baileys.git"
+    "url": "git+https://github.com/bil-rgb/oxy.git"
   },
   "license": "MIT",
-  "author": "PouCode",
+  "author": "bil-rgb",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
@@ -140,9 +140,10 @@
     "node": ">=20.0.0"
   },
   "bugs": {
-    "url": "https://github.com/pou-code/Baileys/issues"
+    "url": "https://github.com/bil-rgb/oxy/issues"
   },
   "contributors": [
-    "WhiskeySockets (original Baileys authors)"
+    "WhiskeySockets (original Baileys authors)",
+    "PouCode"
   ]
 }
